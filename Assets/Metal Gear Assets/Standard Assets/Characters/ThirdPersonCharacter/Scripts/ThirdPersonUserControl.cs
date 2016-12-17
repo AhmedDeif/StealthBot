@@ -12,7 +12,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
-
+		private bool dead;
         
         private void Start()
         {
@@ -50,6 +50,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             float v = CrossPlatformInputManager.GetAxis("Vertical");
             bool crouch = Input.GetKey(KeyCode.C);
+			bool dead = Input.GetKeyDown (KeyCode.Space);
+			m_Character.PlayerDeath (dead);
+//			if (dead) {
+//				m_Character.PlayerDeath (dead);
+//			}
 
             // calculate move direction to pass to character
             if (m_Cam != null)

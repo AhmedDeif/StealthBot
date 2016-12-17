@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{BAD07E30-57DD-44D0-7DBF-899787C63BE5}") = "StealthBot", "Assembly-CSharp.csproj", "{C0283AA1-9686-479C-91CE-0BB9288517C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0283AA1-9686-479C-91CE-0BB9288517C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0283AA1-9686-479C-91CE-0BB9288517C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0283AA1-9686-479C-91CE-0BB9288517C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0283AA1-9686-479C-91CE-0BB9288517C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
