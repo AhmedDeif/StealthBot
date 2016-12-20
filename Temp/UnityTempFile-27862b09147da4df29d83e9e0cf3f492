@@ -80,6 +80,8 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
+'Assets/EnemyNavigationScript.cs'
+'Assets/EnemySight.cs'
 'Assets/Metal Gear Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs'
 'Assets/Metal Gear Assets/Standard Assets/2D/Scripts/CameraFollow.cs'
 'Assets/Metal Gear Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs'
